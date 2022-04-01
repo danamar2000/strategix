@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   resources :schools
   root to: 'pages#main'
   get 'about',           to: 'pages#about',      as: :about
