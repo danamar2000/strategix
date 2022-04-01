@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :schools
   root to: 'pages#main'
   get 'about',           to: 'pages#about',      as: :about
   get 'contact',         to: 'pages#contact',    as: :contact
