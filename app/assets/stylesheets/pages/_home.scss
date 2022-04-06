@@ -5,6 +5,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url(hero.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  opacity: 80%;
 }
 
 .home-h1 {
